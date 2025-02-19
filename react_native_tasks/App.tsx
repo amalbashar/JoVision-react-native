@@ -14,6 +14,8 @@ import Task27 from './Tasks/Task27';
 import Task28 from './Tasks/Task28';
 import Task30 from './Tasks/Task30';
 import Task31 from './Tasks/Task31';
+import Task32 from './Tasks/Task32';
+import Task33 from './Tasks/Task33';
 
 
 export default function App() {
@@ -32,7 +34,9 @@ export default function App() {
     // <Task27/>  
     // <Task28/>  
     // <Task30/>  
-    <Task31/>  
+    // <Task31/>  
+    <Task32/>  
+    // <Task33/>  
 
   );
 }

@@ -4,7 +4,7 @@ import Component31 from '../Components/Component31';
 
 import styles from '../styles'; 
 
-const Task31 = () => {
+const Component31 = () => {
   const [images, setImages] = useState([
     require('../Resource/1.jpg'),
     require('../Resource/2.jpg'),
@@ -75,4 +75,4 @@ const Task31 = () => {
 };
 
 
-export default Task31;
+export default Component31;

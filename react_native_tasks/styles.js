@@ -33,6 +33,18 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: 100,
       },
+      
+
+      poster: {
+        width: 300,
+        height: 400,
+        borderRadius: 10,
+      },
+      video: {
+        width: 300,
+        height: 400,
+      },
   });
 
+  
 export default styles;
