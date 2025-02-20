@@ -48,6 +48,12 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
       },
+
+      subText: {
+        fontSize: 16,
+        color: '#666',
+        textAlign: 'center',
+      },
   });
 
   

@@ -1,6 +1,7 @@
 
 
 import * as React from "react";
+import 'react-native-gesture-handler';
 
 import Task16 from './Tasks/Task16';  
 import Task17 from './Tasks/Task17';  
@@ -29,6 +30,8 @@ import { Provider } from 'react-redux';
 import { store } from './Components/Redux/store'; 
 import Task39 from './Tasks/Task39'; 
 import Task40 from './Tasks/Task40';
+import Task41 from "./Tasks/Task41";
+import Task42 from "./Tasks/Task42";
 
 
 
@@ -60,10 +63,12 @@ export default function App() {
     // <Task37/>  
     // <Task38/>  
 
-    <Provider store={store}>
-    {/* <Task39 /> */}
-    <Task40 />
-  </Provider>
+  //   <Provider store={store}>
+  //   {/* <Task39 /> */}
+  //   <Task40 />
+  // </Provider>
+  // <Task41 />
+  <Task42 />
 
   
 
