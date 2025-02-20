@@ -1,4 +1,7 @@
-import React from 'react';
+
+
+import * as React from "react";
+
 import Task16 from './Tasks/Task16';  
 import Task17 from './Tasks/Task17';  
 import Task18 from './Tasks/Task18';
@@ -21,6 +24,15 @@ import Task35 from './Tasks/Task35';
 import Task36 from './Tasks/Task36';
 import Task37 from './Tasks/Task37';
 import Task38 from './Tasks/Task38';
+
+import { Provider } from 'react-redux';
+import { store } from './Components/Redux/store'; 
+import Task39 from './Tasks/Task39'; 
+import Task40 from './Tasks/Task40';
+
+
+
+
 
 
 export default function App() {
@@ -46,7 +58,14 @@ export default function App() {
     // <Task35/>  
     // <Task36/>  
     // <Task37/>  
-    <Task38/>  
+    // <Task38/>  
+
+    <Provider store={store}>
+    {/* <Task39 /> */}
+    <Task40 />
+  </Provider>
+
+  
 
   );
 }
